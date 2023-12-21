@@ -1,0 +1,36 @@
+
+    form ,.app-layout {
+    
+    direction: rtl;
+}
+
+
+.header-title {
+    text-align: right;
+    direction: rtl;
+}
+.right-0 {
+    right: auto;
+    left: 6px;
+}
+
+.header-nav {
+    direction: rtl;
+}
+
+
+/*  for showing table column */
+.translate-x-5 {transform: translateX(-17px) !important;}
+
+.hidden.lg\:block.ml-3 {
+    margin-right: .75rem;
+}
+
+nav[role=navigation] svg {
+    transform: rotate(180deg);
+}
+
+[data-splade-dropdown-id] button[type=button] {
+    margin-left: 0px;
+    margin-right: 1rem;
+}
